@@ -1,8 +1,74 @@
+* {
 
+}
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: black;
+    background-color: white;
     grid-gap: .4em;
     padding: .4em;
 }
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+
+}
+
+.paragraph1 {
+
+}
+
+.paragraph2 {
+
+}
+
+.paragraph3 {
+
+}
+
+.ad1 {
+
+}
+
+.ad2 {
+
+}
+
+.ad3 {
+
+}
+
+.ad4 {
+
+}
+
+.ad5 {
+
+}
+
+.ad6 {
+
+}
+
+.sidebar-nav {
+
+}
+
+.page-select {
+
+}
+
+.footer {
+
+}
+
+
+
