@@ -4,7 +4,7 @@
 
 main {
     display: grid;
-    grid-template-columns: repeat(3, .5fr);
+    grid-template-columns: 200px 500px 500px 300px auto auto;
     grid-template-rows: repeat(11, .5fr);
     background-color: white;
     grid-gap: .4em;
@@ -14,28 +14,35 @@ main {
 /*.logo {*/
 /*    display: inline-block;*/
 
-.logo{
+.logo {
     margin: .5em;
 
 }
-.about{
+
+.about {
     margin: .5em;
 }
-.values{
+
+.values {
     margin: .5em;
 }
-.news{
+
+.news {
     margin: .5em;
 }
-.contact{
+
+.contact {
     margin: .5em;
 }
-.client{
+
+.client {
     margin: .5em;
 }
-.partners{
+
+.partners {
     margin: .5em;
 }
+
 .body {
     height: 100vh;
     width: 100%;
@@ -49,8 +56,9 @@ main {
 
     grid-column: 1/4;
     grid-row: 1/2;
-    color:white;
+    color: white;
     background-color: black;
+    padding: 0;
 }
 
 .paragraph1 {
@@ -116,10 +124,11 @@ main {
 
 
 }
+
 .ad6 {
     display: flex;
     grid-column: 3/4;
-    grid-row: 7/8 ;
+    grid-row: 7/8;
     align-items: center;
     justify-content: center;
 }
@@ -149,29 +158,46 @@ main {
 
 }
 
-.back_top{
+.back_top {
     color: white;
     background-color: gray;
     grid-column: 2/4;
     grid-row: 10/11;
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
 
 }
-ul{
+
+ul {
 
 }
-ul li{
+
+ul li {
     list-style: none;
-    padding: 5px 5px;
+    padding-bottom: 18px;
 }
 
 .button-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
+.menu{
 
+
+}
+p{
+    background-color: springgreen;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
 
