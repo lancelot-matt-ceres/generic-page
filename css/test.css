@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     display: flex;
     align-items: center;
@@ -11,7 +12,6 @@ body {
     width: 100%;
     margin: 0;
 }
-
 main {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
