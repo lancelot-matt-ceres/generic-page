@@ -4,8 +4,8 @@
 
 main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(3, .5fr);
+    grid-template-rows: repeat(11, .5fr);
     background-color: white;
     grid-gap: .4em;
     padding: .4em;
